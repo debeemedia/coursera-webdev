@@ -4,6 +4,9 @@
 	//margin: 0;
 	//padding: 0;
 }
+html {
+	scroll-behavior: smooth;
+} /* Haven't seen the importance of this yet */
 header.navigation div {
 	color: blue;
 }
