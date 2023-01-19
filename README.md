@@ -1,2 +1,2 @@
 # coursera-webdev
-I am learning HTML, Css and Javascript for Web Developers on Coursera
+I am learning HTML, CSS and Javascript for Web Developers on Coursera
