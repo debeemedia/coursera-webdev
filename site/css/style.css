@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+	//margin: 0;
+	//padding: 0;
+}
+header.navigation div {
+	color: blue;
+}
+div.blurb {
+	color: red;
+}
+div {
+	color: green !important;
+}
+.style {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0000ff;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	/*text-transform: uppercase;*/
+	/*this doesn't seem to work with font-variant-caps"*/
+	text-align: right;
+	font-variant-caps: small-caps;
+}
+/*body {
+	font-size: 120%;
+}
+div {
+	font-size: 2em;
+}
+div {
+	font-size: 2em;
+}
+div {
+	font-size: .5em;
+}*/
+body {
+	background-color: gray;
+}
+#box {
+	background-color: blue;
+	padding: 10px;
+	border: 5px solid black;
+	width: 300px;
+	margin-top: 50px;
+	height: 50px;
+	overflow: auto;
+}
+#content {
+	background-color: #90ee90; //green
+}
+h3 {
+	margin-bottom: 30px;
+}
+#bg {
+	width: 500px;
+	height: 500px;
+	background-color: black;
+	background-image: url("../images/debby.jpg");
+	background-size: 350px;
+	background-repeat: no-repeat;
+	background-position: right;
+	//background: url("../images/debby.jpg") no-repeat right center black;
+}

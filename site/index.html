@@ -3,11 +3,59 @@
 <head>
 	<meta charset="utf-8">
 	<title>Hello Coursera</title>
+	<style type="text/css">
+		header li {list-style: none;
+		}
+		header a:link, header a:visited {
+			text-decoration: none;
+			color: black;
+			background-color: #ffd700;
+			border: 1px solid gray;
+			display: block;
+			width: 100px;
+			text-align: center;
+			margin-bottom: 5px;
+		}
+		header a:hover, header a:active {
+			background-color: #aa8f00;
+			color: white;
+		}
+		header li:nth-child(2) {
+			font-variant-caps: small-caps;
+		}
+		body > ul > li:nth-child(even) {
+			background-color: gray;
+		}
+		body > ul > li:nth-child(2):hover {
+			background-color: #ffd700;
+			cursor: pointer;
+		}
+		.blue {
+			color: blue;
+		}
+		#red {
+			color: red;
+		}
+		h1::before {
+			content: "DBM - ";
+			color: #aa8f00;
+		}
+		
+	</style>
 </head>
+<header>
+	<nav>
+		<ul>
+			<li><a href="/index.html">Home</a></li>
+			<li><a href="https://debeemedia.vsble.me" target="_blank">Portfolio</a></li>
+			<li><a href="https://linkedin.com/in/debeemedia" target="_blank">About</a></li>
+		</ul>
+	</nav>
+</header>
 <body>
-	<h1>Hello &nbsp;Coursera!</h1>
+	<h1>Hello Coursera!</h1>
 	<br>
-	<h2>Proposed Courses</h2>
+	<h2>Proposed &nbsp;Courses</h2>
 	<ul>
 		<li>Graphic Design</li>
 		<li>Video Editing</li>
@@ -33,7 +81,7 @@
 	<br>
 
 
-	<p><!--DON'T FORGET to try out this quot character entity -->&quot;Lorem ipsum <span><!--DON'T FORGET the span and margin thing -->dolor</span> sit amet, consectetur adipisicing elit, sed do eiusmod
+	<p class="blue"><!--DON'T FORGET to try out this quot character entity -->&quot;Lorem ipsum <span style="margin-left: 10px;"><!--DON'T FORGET the span and margin thing -->dolor</span> sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore&nbsp;et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -50,21 +98,25 @@
 			</ul>
 		</section>
 
-	<p>Testing External Link</p>
-	<a href="https://debeemedia.vsble.me" target="_blank" rel="noopener noreferrer" title="Check out my awesome jobs!">My Portfolio Website</a> <!--CHECK OUT other target attributes-->
+	<p id="red">Testing External Link</p>
+	<a href="https://debeemedia.vsble.me" target="_blank" rel="noopener noreferrer" title="Check out my awesome jobs!">My Portfolio Website</a>
+
 	<br> <br> <br> <br>
 
 	<p>Testing Internal Link</p>
 	<a href="same-directory.html" title="Same folder, Different file">Same Directory</a>
+	
 	<br> <br> <br> <br>
 
 	<p>Testing Internal Link in Sub Directory</p>
 	<a href="sub-site/sub-dir.html" title="Sub folder, Different file">Sub Directory</a>
+	
 	<br> <br> <br> <br>
 
 	<p>Testing Internal Link in Another (Parent) Directory</p>
-	<a href="../parent-dir.html" title="Parent folder, Different file">Parent Directory</a>
+	<a href="../parent-dir.html" title="Parent folder, Different file">Parent Directory</a> <!-- by parent, i mean parent of the file and the root folder-->
 	<!-- This won't work unless you set browser-sync to target files from outside the root (site) folder. Or you load the page without browser-sync-->
+	
 	<br> <br> <br> <br>
 
 	<header>
@@ -91,8 +143,10 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</section>
+	
 	<br>
-	<aside>
+	
+	<aside class="blue">
 		<b>Featured</b>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -101,7 +155,9 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</aside>
+	
 	<br>
+	
 	<section id="Sub">
 		<h2>Sub Heading</h2>
 		<h3>Section Two</h3>
@@ -128,17 +184,23 @@
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</section>
 	
 	<br><br>
+	
 	<a href="#up">Back to Up</a>
 
 	<br><br><br>
+	
 	<img src="images/photo-cropped.jpg" width="300" height="280" alt="Debby Pic">
 	&ensp;<img src="images/photo-cropped.jpg" width="300" height="280" alt="Debby Pic">
 
 	<br><br><br>
+	
 	<img src="https://www.vsble.me/img/7/c/2/d/7b4d7d54c09091562f00f0d9ddcd1e29-960webP.webP" width="300" height="300" alt="Marketing Flyer">
 	&emsp;<img src="https://www.vsble.me/img/7/c/2/d/7b4d7d54c09091562f00f0d9ddcd1e29-960webP.webP" width="300" height="300" alt="Marketing Flyer">
+	
 	<br><br><br>
+	
 	<hr>
+	
 	<footer>deBee Media &copy;2023</footer>
 </body>
 </html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Floating Elements</title>
+	<style>
+		
+		* {
+			margin-bottom: 0;
+		}
+		div {
+			background-color: #00ffff;
+			//border: 1px solid black;
+			margin-top: 70px;
+			position: relative;
+			overflow: auto;
+		}
+		p {
+			width: 50px;
+			height: 50px;
+			//border: 1px solid black;
+			//float: left;
+			margin-top: 60px;
+		}
+
+		#p1 {
+			background-color: #a52a2a;
+			position: relative;
+			top: 10px;
+			left: 10px;
+		}
+		#p2 {
+			background-color: #deb887;
+			position: absolute;
+			top: 10px;
+			right: 0px;
+		}
+		#p3 {
+			background-color: #5f9e80;
+			//clear: left;
+			position: fixed;
+			top: 0;
+		}
+		#p4 {
+			background-color: #ff7f50;
+			position: sticky;
+			top: 10px;
+		}
+		section {
+			clear: left;
+		}
+		h1 {
+			margin: 0;
+		}
+		
+
+	</style>
+</head>
+<body>
+	<h1>Floating Elements</h1>
+	<div>
+		<p id="p1"></p>
+		<p id="p2"></p>
+		<p id="p3"></p>
+		<p id="p4"></p>
+		<section>This is regular content continuing after the paragraph boxes</section>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	
+</body>
+</html>
