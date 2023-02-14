@@ -46,21 +46,17 @@ body {
 /* HOME PAGE */
 #main-content h2 {
 	margin-top: 0;
-	margin-bottom: 40px;
 }
 #main-content h3 {
 	text-align: center;
 	margin-top: -5px;
 }
-#main-content .row {
-	width: 100%;
-}
+
 #main-content section div {
 	background-color: #f6b319; /* color yellow */
 	padding: 15px;
 	height: 700px;
-	margin-bottom: 10px;
-	margin-right: 10px;
+	margin-top: 35px;
 	position: relative;
 }
 #main-content section span {
@@ -68,6 +64,7 @@ body {
 	position: absolute;
 	bottom: 0px;
 }
+
 
 /********** Extra Small Devices **********/
 @media (max-width: 767px) {
@@ -79,7 +76,28 @@ body {
 		color: #f6b319; /* color yellow */
 	}
 	
+}
+
+/********** Small Devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
 	/* Main Content */
-	
+	#main-content section div {
+		margin-right: 10px;
+	}
+}
+
+/********** Medium Devices **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/* Main Content */
+	#main-content section div {
+		margin-right: 10px;
+	}
+}
+
+/********** Large Devices **********/
+@media (min-width: 1200px) {
+	/* Main Content */
+	#main-content section div {
+		margin-right: 10px;
 	}
 }
