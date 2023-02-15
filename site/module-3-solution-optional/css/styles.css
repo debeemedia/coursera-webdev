@@ -71,6 +71,7 @@ body {
 	/*Header*/
 	.navbar-default .navbar-collapse {
 	background-color: #61122f;
+	border: 0;
 	}
 	#nav-list > li > a {
 		color: #f6b319; /* color yellow */
